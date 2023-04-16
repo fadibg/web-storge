@@ -1,0 +1,484 @@
+
+html {
+  background:  lemonchiffon;
+}
+
+
+.menu ul li a{
+  
+
+
+  
+   overflow: auto;
+}
+
+.menu ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   line-height: 60px;
+
+}
+
+.menu li{
+   float: left;
+}
+.menu ul li a{
+  
+   text-decoration: none;
+   width: 130px;
+   display: block;
+   text-align: center;
+   color: orange;
+   font-size: 18px;
+   font-family: sans-serif;
+   letter-spacing: 0.5px;
+
+
+
+}
+
+.menu li a:hover{
+   color: dimgray;
+  
+   font-size: 19px;
+}
+.search-form{
+   margin-top: 15px;
+   float:right;
+   margin-left: 50px;
+}
+.search-form input[type=text]{
+ color: blanchedalmond;
+   padding: 7px;
+   border: none;
+   font-size: 16px;
+   font-family: sans-serif;
+   
+
+}
+
+.search-form button{
+   float: right;
+   background-color: lightyellow;
+   background:maroon;
+   color: floralwhite;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   position: relative;
+   padding: 7px;
+   font-family: sans-serif;
+   border: none;
+   font-size: 16px;
+}
+input {
+
+   text-rendering: auto;
+   letter-spacing: normal;
+   word-spacing: normal;
+   text-transform: none;
+   text-indent: 0px;
+   text-shadow: none;
+   display: inline-block;
+   text-align: start;
+   -webkit-appearance: textfield;
+   background: orange
+
+}
+
+
+.dropbtn {
+ background-color:yellowgreen ;
+ color:lavenderblush;
+   border-radius: 0 5px 5px 0;
+ padding: 22px;
+ font-size: 19px;
+ border: none;
+
+
+      
+}
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ right: 0;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown-content a:hover {background-color:chartreuse;}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropdown:hover .dropbtn {
+ background-color: #3e8e41;
+}
+
+
+
+div.gallery {
+ border: 1px solid #ccc;
+ 
+}
+
+div.gallery:hover {
+ border: 1px solid #777;
+}
+
+div.gallery img {
+ width: 100%;
+ height: 8cm;
+}
+
+div.desc {
+ padding: 15px;
+ text-align: center;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+.responsive {
+ padding: 0 6px;
+ float: left;
+ width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+ .responsive {
+   width: 49.99999%;
+   margin: 6px 0;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+ .responsive {
+   width: 100%;
+ }
+}
+
+.clearfix:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+h2 {
+ 
+   font-size: 1.5em;
+    margin-right: 40%;
+    margin-left: 40%;
+   margin-block-start: 0.83em;
+   margin-block-end: 0.83em;
+  
+   margin-inline-end: 0px;
+   font-weight: bold;
+
+}
+h4 {
+ color: crimson;
+  margin-right:400%;
+    margin-left: 40%;
+ display: block;
+   margin-block-start: 1.33em;
+   margin-block-end: 1.33em;
+ 
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+.login-form ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   line-height: 60px;
+
+}
+
+.login-form li{
+   float:right ;
+}
+.login-form ul li a{
+   background: #142B47;
+   text-decoration: none;
+   width: 130px;
+   display: block;
+   text-align: center;
+   color: orange;
+   font-size: 18px;
+   font-family: sans-serif;
+   letter-spacing: 0.5px;
+
+
+
+}
+
+.login-form li a:hover{
+   color: mediumorchid;
+   opacity: ;
+   font-size: 19px;
+}
+
+
+.login-form body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+.login-form input[type=text], input[type=password] {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login-form button {
+ background-color: #142B47;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+
+.login-form button:hover {
+ opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+ text-align: center;
+ margin: 24px 0 12px 0;
+ position: relative;
+}
+
+
+.container {
+ padding: 16px;
+}
+
+span.psw {
+ float: right;
+ padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+ background-color: #fefefe;
+ margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+ border: 1px solid #888;
+ width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+ position: absolute;
+ right: 25px;
+ top: 0;
+ color: #000;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: red;
+ cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+ -webkit-animation: animatezoom 0.6s;
+ animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+ from {-webkit-transform: scale(0)} 
+ to {-webkit-transform: scale(1)}
+}
+ 
+@keyframes animatezoom {
+ from {transform: scale(0)} 
+ to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+.login-form .box{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate( -50%,-50%);
+ width: 400px;
+ padding: 40px;
+ background: rgba(0,0,0,0.7);
+ box-sizing: border-box;
+ box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+ border-radius: 10px;
+
+}
+
+
+.login-form .box h2{
+ color: #FFF;
+ margin: 0 0 30px;
+ padding: 0;
+ text-align: center;
+
+}
+
+
+.login-form .box .inputBox{
+ position: relative;
+}
+
+.login-form .box .inputBox input{
+ width: 100%;
+ padding: 10px 0;
+ font-size: 16px;
+ color: #FFF;
+ letter-spacing: 1px;
+ margin-bottom: 30px;
+ border: none;
+ border-bottom: 1px solid orange;
+ outline: none;
+ background: transparent ;
+
+ 
+}
+.login-form .box .inputBox label{
+ position: absolute;
+ top: 0;
+ left: 0;
+ letter-spacing: 1px;
+ padding: 10px 0;
+ font-size: 16px;
+ color: #FFF;
+ pointer-events: none;
+ transition: 1.4s;
+
+}
+
+.login-form .box .inputBox input:focus ~ label,
+.login-form .box .inputBox input:valid ~ label{
+
+top: -18px;
+left: 0;
+color: chartreuse;
+font-size: 12px;
+
+}
+
+.login-form .box input[type="submit"]{
+ background: transparent;
+ border: none;
+ outline: none;
+ color: #FFF;
+ background: orange;
+ padding: 10px 20px;
+ cursor: pointer;
+ border-radius: 10px;
+
+}
+.post {
+ width:700px;
+ position: relative ;
+ top: 10%;
+ left: 25%;
+ transform: rotateX(20deg);
+ padding: 40px;
+ background: rgba(0,0,0,0.7);
+ box-sizing: border-box;
+ box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+ border-radius: 30px;
+}
+.post .img{
+ margin: 0 0 30px;
+ padding: 0;
+ text-align: center;
+}
+.post .p{
+ color: #FFF;
+ margin: 0 0 30px;
+ padding: 0;
+ text-align: center;
+}
+.post .inputBox input{
+ width: 100%;
+ padding: 10px 0;
+ font-size: 16px;
+ color: #FFF;
+ letter-spacing: 1px;
+ margin-bottom: 30px;
+ border: none;
+ border-bottom: 1px solid orange;
+ outline: none;
+ background: transparent ;
+
+}
+.post .inputBox label{
+ position: absolute;
+ top: 0;
+ left: 0;
+ letter-spacing: 1px;
+ padding: 10px 0;
+ font-size: 16px;
+ color: #FFF;
+ pointer-events: none;
+ transition: 1.4s;
+
+}.post input[type="submit"]{
+ background: transparent;
+ border: none;
+ outline: none;
+ color: #FFF;
+ background: orange;
+ padding: 10px 20px;
+ cursor: pointer;
+ border-radius: 10px;
+
+}
+.post .inputBox input:focus ~ label,
+.post .inputBox input:valid ~ label{
+
+top: -18px;
+left: 0;
+color: chartreuse;
+font-size: 12px;
+
+}
+.post .inputBox{
+ position: relative;
+}
